@@ -1,0 +1,10 @@
+
+/* GitHub updater: scoped styles, existing layout unchanged */
+#kt-update-banner{display:none;margin:10px 14px;padding:13px 14px;border:1px solid var(--accent,#9d7bff);border-radius:13px;background:rgba(157,123,255,.09);font-family:inherit}
+#kt-update-banner.kt-show{display:block}
+#kt-update-banner strong{display:block;margin-bottom:5px;font-size:13px}
+#kt-update-banner p{margin:3px 0 10px;font-size:12px;line-height:1.45;white-space:pre-wrap;max-height:95px;overflow:auto}
+#kt-update-banner .kt-update-actions{display:flex;gap:8px;flex-wrap:wrap}
+#kt-update-banner button,#kt-check-update{cursor:pointer;border:1px solid var(--accent,#9d7bff);border-radius:9px;padding:8px 12px;background:transparent;color:inherit;font:inherit;font-size:12px}
+#kt-update-banner button.kt-primary{background:var(--accent,#9d7bff);color:#101018}
+#kt-update-result{font-size:12px;opacity:.8;margin:8px 0}
